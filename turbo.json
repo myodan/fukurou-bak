@@ -1,0 +1,14 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"ui": "tui",
+	"tasks": {
+		"dev": {
+			"persistent": true,
+			"cache": false
+		},
+		"//#format-and-lint": {},
+		"//#format-and-lint:fix": {
+			"cache": false
+		}
+	}
+}
